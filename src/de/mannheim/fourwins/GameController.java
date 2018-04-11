@@ -28,7 +28,7 @@ class GameControler extends Thread {
 	          Player tmp = white;
 	          white = black;
 	          black = tmp;
-	          System.out.println("Players swapped");
+	          System.out.println("Players switched");
 	          swapReqest = false;
 	        }
 	      }
